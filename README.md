@@ -109,13 +109,13 @@ aws eks update-kubeconfig --name <cluster-name> --region <region>
 ### Running Workloads on x86 (AMD64) Instances
 
 ```bash
-kubectl apply -f < raw-url-of-root/YAML/x86-app.yaml >
+kubectl apply -f < raw-url-of-/YAML/x86-app.yaml >
 ```
 
 ### Running Workloads on ARM64 (Graviton) Instances
 
 ```bash
-kubectl apply -f < raw-url-of-root/YAML/arm64-app.yaml >
+kubectl apply -f < raw-url-of-/YAML/arm64-app.yaml >
 ```
 
 ### Using Spot Instances
