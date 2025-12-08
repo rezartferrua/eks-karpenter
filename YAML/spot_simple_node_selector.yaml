@@ -1,0 +1,17 @@
+nodeSelector:
+  karpenter.sh/capacity-type: spot
+```
+
+**Node Affinity (for mixed preference):**
+
+```yaml
+affinity:
+  nodeAffinity:
+    preferredDuringSchedulingIgnoredDuringExecution:
+    - weight: 1
+      preference:
+        matchExpressions:
+        - key: karpenter.sh/capacity-type
+          operator: In
+          values:
+          - spot
