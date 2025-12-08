@@ -32,6 +32,9 @@ This repository contains Terraform code to deploy an AWS EKS cluster with Karpen
     └── vpc.tf          # VPC and subnet definitions
 ```
 
+<img width="4623" height="1743" alt="graphviz" src="https://github.com/user-attachments/assets/0fb6d94c-cbd0-4d06-b89d-43cd2b3b1d29" />
+
+
 ## Key Components
 
 ### VPC Configuration
