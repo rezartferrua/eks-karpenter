@@ -81,7 +81,7 @@ The infrastructure includes:
 
 ```bash
 git clone <repository-url>
-cd eks-karpenter
+cd local-download-location/eks-karpenter/root
 ```
 
 ### Initialize Terraform:
